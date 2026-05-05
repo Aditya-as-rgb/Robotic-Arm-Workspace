@@ -1,0 +1,24 @@
+# MoveIt uses this configuration for controller management
+
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - arm_controller
+    - gripper_controller
+
+  arm_controller:
+    type: FollowJointTrajectory
+    joints:
+      - Revolute 1
+      - Revolute 2
+      - Revolute 3
+      - Revolute 4
+      - Revolute 5
+  gripper_controller:
+    type: FollowJointTrajectory
+    joints:
+      - Revolute 6
+      - Revolute 9
+      - Revolute 7
+      - Revolute 10

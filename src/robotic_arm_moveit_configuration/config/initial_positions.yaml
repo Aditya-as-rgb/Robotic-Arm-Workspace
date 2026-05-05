@@ -1,0 +1,12 @@
+# Default initial positions for robotic_arm's ros2_control fake system
+
+initial_positions:
+  Revolute 1: 0
+  Revolute 10: 0
+  Revolute 2: 0
+  Revolute 3: 0
+  Revolute 4: 0
+  Revolute 5: 0
+  Revolute 6: 0
+  Revolute 7: 0
+  Revolute 9: 0
